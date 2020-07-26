@@ -40,11 +40,13 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  /**outline: 2px solid tomato;**/
 }
 
 section {
   padding-top: 0px;
   padding-bottom: 94px;
+  /**outline: 2px solid teal;**/
 }
 
 h2,
@@ -167,10 +169,11 @@ p {
   border-radius: 4px;
   color: var(--main-white-color);
   background-color: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero button {
-  margin-bottom: 200px;
+  vertical-align: middle;
 }
 
 .btn-portfolio {
@@ -181,8 +184,8 @@ p {
   letter-spacing: 0.03em;
   color: var(--dark-text-color);
   background-color: #f5f4fa;
-  border-radius: 4px;
   border: transparent;
+  box-shadow: none;
 }
 
 .btn:hover,
@@ -196,17 +199,17 @@ p {
 .container.hero {
   height: 600px;
   background: rgba(47, 48, 58, 0.8);
+  text-align: center;
 }
 
 .hero-title {
   padding-top: 200px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 
   font-size: 44px;
   font-weight: 900;
   line-height: 1.364;
-  text-align: center;
   letter-spacing: 0.06em;
 
   color: var(--main-white-color);
@@ -340,7 +343,7 @@ p {
 **/
 
 .section-portfolio {
-  padding-top: 93px;
+  padding-top: 94px;
 }
 
 .pf-container {
@@ -474,7 +477,11 @@ h3 {
 
 /**для div з блоком підписки**/
 
-.mailing-link {
+.mailing-block {
+  margin-top: 20px;
+}
+
+.input {
   display: inline-block;
-  vertical-align: middle;
+  margin-right: 12px;
 }
