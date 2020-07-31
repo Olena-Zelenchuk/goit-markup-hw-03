@@ -44,7 +44,7 @@ body {
 }
 
 section {
-  padding-top: 0px;
+  padding-top: 94px;
   padding-bottom: 94px;
   /**outline: 2px solid teal;**/
 }
@@ -172,11 +172,8 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.hero button {
-  vertical-align: middle;
-}
-
 .btn-portfolio {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -196,14 +193,16 @@ p {
   background-color: var(--accent-color);
 }
 
-.container.hero {
+.section-hero {
+  padding: 200px 0;
+  text-align: center;
+  vertical-align: middle;
   height: 600px;
   background: rgba(47, 48, 58, 0.8);
-  text-align: center;
 }
 
 .hero-title {
-  padding-top: 200px;
+  padding-top: 0px;
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -216,15 +215,17 @@ p {
 }
 
 .section-title {
-  padding-top: 94px;
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--dark-text-color);
+}
+
+.benefits {
+  padding-bottom: 0;
 }
 
 .benefits-list {
@@ -321,7 +322,6 @@ p {
 }
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
-  justify-content: space-between;
 }
 
 .projects {
@@ -341,11 +341,6 @@ p {
 
 /**PORTFOLIO
 **/
-
-.section-portfolio {
-  padding-top: 94px;
-}
-
 .pf-container {
   margin-bottom: 50px;
 }
