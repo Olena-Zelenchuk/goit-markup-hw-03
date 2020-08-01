@@ -57,6 +57,7 @@ p {
 
 .header-page {
   display: flex;
+  border: 1px solid #ececec;
 }
 
 .navigation {
@@ -172,6 +173,10 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.section-hero .btn {
+  background-color: var(--accent-color);
+}
+
 .btn-portfolio {
   padding: 6px 22px;
   font-family: inherit;
@@ -254,6 +259,12 @@ p {
   color: var(--dark-text-color);
 }
 
+.benefits-title {
+  margin-left: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 .what-we-do .section-title {
   padding-top: 0px;
 }
@@ -290,6 +301,7 @@ p {
 
 .person-list {
   width: calc((100% - 30px * 3) / 4);
+  background-color: var(--main-white-color);
 }
 
 .person-list:not(:last-child) {
@@ -363,6 +375,9 @@ p {
   width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
   justify-content: center;
+  padding-bottom: 20px;
+
+  border: 1px solid #eeeeee;
 }
 
 .projects-list-item:nth-child(3n) {
