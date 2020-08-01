@@ -164,7 +164,6 @@ p {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  text-align: center;
   letter-spacing: 0.06em;
 
   border-radius: 4px;
@@ -302,10 +301,14 @@ p {
 .person-list {
   width: calc((100% - 30px * 3) / 4);
   background-color: var(--main-white-color);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .person-list:not(:last-child) {
   margin-right: 30px;
+  padding-bottom: 30px;
 }
 
 .person-list .names {
@@ -327,10 +330,17 @@ p {
 
 .clients-list {
   display: flex;
+  text-align: center;
+  align-content: center;
 }
 
 .clients-list-item {
+  display: inline-block;
+  vertical-align: middle;
   width: calc((100% - 30px * 5) / 6);
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .clients-list-item:not(:last-child) {
   margin-right: 30px;
